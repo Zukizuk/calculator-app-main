@@ -1,0 +1,126 @@
+// Theme 1
+$Very-dark-desaturated-blue-main-background: hsl(222, 26%, 31%);
+$Very-dark-desaturated-blue-toggle-background-keypad-background: hsl(
+  223,
+  31%,
+  20%
+);
+$Very-dark-desaturated-blue-screen-background: hsl(224, 36%, 15%);
+// #### Keys
+$Desaturated-dark-blue-key-background: hsl(225, 21%, 49%);
+$Desaturated-dark-blue-key-shadow: hsl(224, 28%, 35%);
+$Red-key-background-toggle: hsl(6, 63%, 50%);
+$Dark-red-key-shadow: hsl(6, 70%, 34%);
+$Light-grayish-orange-key-background: hsl(30, 25%, 89%);
+$Grayish-orange-key-shadow: hsl(28, 16%, 65%);
+// #### Text
+$Very-dark-grayish-blue: hsl(221, 14%, 31%);
+$White: hsl(0, 0%, 100%);
+/* Theme 2 */
+/* Backgrounds */
+$theme-2-main-background: hsl(0, 0%, 90%);
+$theme-2-toggle-background-keypad-background: hsl(0, 5%, 81%);
+$theme-2-screen-background: hsl(0, 0%, 93%);
+/* Keys */
+$theme-2-key-background: hsl(185, 42%, 37%);
+$theme-2-key-shadow: hsl(185, 58%, 25%);
+$theme-2-red-key-background-toggle: hsl(25, 98%, 40%);
+$theme-2-dark-red-key-shadow: hsl(25, 99%, 27%);
+$theme-2-light-grayish-yellow-key-background: hsl(45, 7%, 89%);
+$theme-2-dark-grayish-orange-key-shadow: hsl(35, 11%, 61%);
+/* Text */
+$theme-2-very-dark-grayish-yellow: hsl(60, 10%, 19%);
+/* Theme 3 */
+/* Backgrounds */
+$theme-3-main-background: hsl(268, 75%, 9%);
+$theme-3-toggle-background-keypad-background: hsl(268, 71%, 12%);
+$theme-3-screen-background: hsl(268, 71%, 12%);
+/* Keys */
+$theme-3-key-background: hsl(281, 89%, 26%);
+$theme-3-key-shadow: hsl(285, 91%, 52%);
+$theme-3-red-key-background-toggle: hsl(176, 100%, 44%);
+$theme-3-dark-red-key-shadow: hsl(177, 92%, 70%);
+$theme-3-light-grayish-yellow-key-background: hsl(268, 47%, 21%);
+$theme-3-dark-grayish-orange-key-shadow: hsl(290, 70%, 36%);
+/* Text */
+$theme-3-light-yellow: hsl(52, 100%, 62%);
+$theme-3-very-dark-blue: hsl(198, 20%, 13%);
+$Font-size-numbers: 32px;
+
+// Backgrounds
+$mainBG: $Very-dark-desaturated-blue-main-background;
+$toggleBG: $Very-dark-desaturated-blue-toggle-background-keypad-background;
+$screenBG: $Very-dark-desaturated-blue-screen-background;
+// Key
+$keyBG: $Desaturated-dark-blue-key-background;
+$keyShadow: $Desaturated-dark-blue-key-shadow;
+$redKeyBG: $Red-key-background-toggle;
+$redkeyShadow: $Dark-red-key-shadow;
+$orangeBG: $Light-grayish-orange-key-background;
+$orangeShadow: $Grayish-orange-key-shadow;
+// Text
+$textBlue: $Very-dark-grayish-blue;
+$textWhite: $White;
+
+// :root {
+//   // Backgrounds
+//   $mainBG: $Very-dark-desaturated-blue-main-background;
+//   $toggleBG: $Very-dark-desaturated-blue-toggle-background-keypad-background;
+//   $screenBG: $Very-dark-desaturated-blue-screen-background;
+//   // Key
+//   $keyBG: $Desaturated-dark-blue-key-background;
+//   $keyShadow: $Desaturated-dark-blue-key-shadow;
+//   $redKeyBG: $Red-key-background-toggle;
+//   $redkeyShadow: $Dark-red-key-shadow;
+//   $orangeBG: $Light-grayish-orange-key-background;
+//   $orangeShadow: $Grayish-orange-key-shadow;
+//   // Text
+//   $textBlue: $Very-dark-grayish-blue;
+// }
+
+body {
+  // Backgrounds
+  $mainBG: $Very-dark-desaturated-blue-main-background;
+  $toggleBG: $Very-dark-desaturated-blue-toggle-background-keypad-background;
+  $screenBG: $Very-dark-desaturated-blue-screen-background;
+  // Key
+  $keyBG: $Desaturated-dark-blue-key-background;
+  $keyShadow: $Desaturated-dark-blue-key-shadow;
+  $redKeyBG: $Red-key-background-toggle;
+  $redkeyShadow: $Dark-red-key-shadow;
+  $orangeBG: $Light-grayish-orange-key-background;
+  $orangeShadow: $Grayish-orange-key-shadow;
+  // Text
+  $textColor: $Very-dark-grayish-blue;
+}
+body.theme-two {
+  // Backgrounds
+  $mainBG: $theme-2-main-background;
+  $toggleBG: $theme-2-toggle-background-keypad-background;
+  $screenBG: $theme-2-screen-background;
+  // Key
+  $keyBG: $theme-2-key-background;
+  $keyShadow: $theme-2-key-shadow;
+  $redKeyBG: $theme-2-red-key-background-toggle;
+  $redkeyShadow: $theme-2-dark-red-key-shadow;
+  $orangeBG: $theme-2-light-grayish-yellow-key-background;
+  $orangeShadow: $theme-2-dark-grayish-orange-key-shadow;
+  // Text
+  $textColor: $theme-2-very-dark-grayish-yellow;
+}
+body.theme-three {
+  // Backgrounds
+  $mainBG: $theme-3-main-background;
+  $toggleBG: $theme-3-toggle-background-keypad-background;
+  $screenBG: $theme-3-screen-background;
+  // Key
+  $keyBG: $theme-3-key-background;
+  $keyShadow: $theme-3-key-shadow;
+  $redKeyBG: $theme-3-red-key-background-toggle;
+  $redkeyShadow: $theme-3-dark-red-key-shadow;
+  $orangeBG: $theme-3-light-grayish-yellow-key-background;
+  $orangeShadow: $theme-3-dark-grayish-orange-key-shadow;
+  // Text
+  $textColor: $theme-3-light-yellow;
+  $textColor2: $theme-3-very-dark-blue;
+}

@@ -1,0 +1,97 @@
+@forward "color.scss";
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+  height: unset;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+embed,
+iframe,
+img,
+object,
+svg {
+  vertical-align: bottom;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  vertical-align: middle;
+}
+[type="button"]:disabled,
+[type="reset"]:disabled,
+[type="submit"]:disabled,
+button:disabled {
+  cursor: default;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a,
+[type="button"],
+[type="reset"],
+[type="submit"],
+button,
+label[for] {
+  cursor: pointer;
+}
+.sr-only {
+  position: absolute;
+  left: -9999px;
+}
+main,
+header,
+footer {
+  max-width: 100%;
+}
+
+button,
+a {
+  transition: 0.4s ease;
+}
+:is(button, a):is(:focus, :focus-visible, :focus-within):not(.attribution a) {
+  outline: #aaa dotted 3px;
+  outline-offset: 0.35rem;
+}
+
+@mixin place__item__center {
+  display: grid;
+  place-items: center;
+}
+@mixin flex__column {
+  display: flex;
+  flex-direction: column;
+}
+@mixin flex__columnR {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@mixin flex__rowR {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@mixin flex__AC__JC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin flex__JSB {
+  display: flex;
+  justify-content: space-between;
+}
