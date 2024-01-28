@@ -173,7 +173,11 @@ function App() {
             THEME
             <div>
               <span>123</span>
-              <button onClick={toggleTheme} className={theme}></button>
+              <button
+                aria-label="toggle theme button"
+                onClick={toggleTheme}
+                className={theme}
+              ></button>
             </div>
           </div>
         </div>
