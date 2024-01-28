@@ -11,8 +11,6 @@ body {
   main {
     @include flex__column;
     gap: 1.5rem;
-    // min-height: 624px;
-    // background: black;
     .top {
       display: flex;
       justify-content: space-between;
@@ -102,7 +100,6 @@ body {
       @media (min-width: 64rem) {
         grid-template-columns: repeat(4, 6.25rem);
         gap: 1.5rem;
-        row-gap: 1.125rem;
         padding-block: 1.75rem;
         place-content: center;
       }

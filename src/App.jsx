@@ -142,7 +142,9 @@ function formatOperand(operand) {
 function App() {
   const [{ currentOperand, previousOperand, operation }, dispatch] = useReducer(
     reducer,
-    {}
+    {
+      currentOperand: "399981",
+    }
   );
   const [theme, setTheme] = useState(Theme.one);
 
